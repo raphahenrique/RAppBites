@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6463BFFC29A53F73004E959F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463BFFB29A53F73004E959F /* AppDelegate.swift */; };
+		6463C00729A53F77004E959F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6463C00629A53F77004E959F /* Assets.xcassets */; };
+		6463C01529A53F78004E959F /* RAppBitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463C01429A53F78004E959F /* RAppBitesTests.swift */; };
+		6463C01F29A53F78004E959F /* RAppBitesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463C01E29A53F78004E959F /* RAppBitesUITests.swift */; };
+		6463C02129A53F78004E959F /* RAppBitesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463C02029A53F78004E959F /* RAppBitesUITestsLaunchTests.swift */; };
+		6466CD6129B2CBC600E450CA /* RCoordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 6466CD6029B2CBC600E450CA /* RCoordinator */; };
+		6466CD6A29B2D00300E450CA /* RAppBitesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6466CD6929B2D00300E450CA /* RAppBitesCoordinator.swift */; };
+		6466CD6C29B2D08200E450CA /* RAppBitesEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6466CD6B29B2D08100E450CA /* RAppBitesEvents.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6463C01129A53F78004E959F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6463BFF029A53F73004E959F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6463BFF729A53F73004E959F;
+			remoteInfo = RAppBites;
+		};
+		6463C01B29A53F78004E959F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6463BFF029A53F73004E959F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6463BFF729A53F73004E959F;
+			remoteInfo = RAppBites;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6463BFF829A53F73004E959F /* RAppBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAppBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6463BFFB29A53F73004E959F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6463C00629A53F77004E959F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6463C01029A53F78004E959F /* RAppBitesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAppBitesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6463C01429A53F78004E959F /* RAppBitesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAppBitesTests.swift; sourceTree = "<group>"; };
+		6463C01A29A53F78004E959F /* RAppBitesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAppBitesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6463C01E29A53F78004E959F /* RAppBitesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAppBitesUITests.swift; sourceTree = "<group>"; };
+		6463C02029A53F78004E959F /* RAppBitesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAppBitesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6466CD6929B2D00300E450CA /* RAppBitesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAppBitesCoordinator.swift; sourceTree = "<group>"; };
+		6466CD6B29B2D08100E450CA /* RAppBitesEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAppBitesEvents.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6463BFF529A53F73004E959F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6466CD6129B2CBC600E450CA /* RCoordinator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6463C00D29A53F78004E959F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6463C01729A53F78004E959F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6463BFEF29A53F73004E959F = {
+			isa = PBXGroup;
+			children = (
+				6463BFFA29A53F73004E959F /* RAppBites */,
+				6463C01329A53F78004E959F /* RAppBitesTests */,
+				6463C01D29A53F78004E959F /* RAppBitesUITests */,
+				6463BFF929A53F73004E959F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6463BFF929A53F73004E959F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6463BFF829A53F73004E959F /* RAppBites.app */,
+				6463C01029A53F78004E959F /* RAppBitesTests.xctest */,
+				6463C01A29A53F78004E959F /* RAppBitesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6463BFFA29A53F73004E959F /* RAppBites */ = {
+			isa = PBXGroup;
+			children = (
+				6466CD6229B2CD3400E450CA /* Sources */,
+				6463BFFB29A53F73004E959F /* AppDelegate.swift */,
+				6463C00629A53F77004E959F /* Assets.xcassets */,
+			);
+			path = RAppBites;
+			sourceTree = "<group>";
+		};
+		6463C01329A53F78004E959F /* RAppBitesTests */ = {
+			isa = PBXGroup;
+			children = (
+				6463C01429A53F78004E959F /* RAppBitesTests.swift */,
+			);
+			path = RAppBitesTests;
+			sourceTree = "<group>";
+		};
+		6463C01D29A53F78004E959F /* RAppBitesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6463C01E29A53F78004E959F /* RAppBitesUITests.swift */,
+				6463C02029A53F78004E959F /* RAppBitesUITestsLaunchTests.swift */,
+			);
+			path = RAppBitesUITests;
+			sourceTree = "<group>";
+		};
+		6466CD6229B2CD3400E450CA /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6466CD6329B2CD4300E450CA /* Presentation */,
+				6466CD6629B2CF6400E450CA /* Domain */,
+				6466CD6529B2CF5900E450CA /* Coordinator */,
+				6466CD6429B2CF4F00E450CA /* Data */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6466CD6329B2CD4300E450CA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6466CD6429B2CF4F00E450CA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6466CD6529B2CF5900E450CA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6466CD6729B2CFBD00E450CA /* RAppBitesCoordinator */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		6466CD6629B2CF6400E450CA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6466CD6729B2CFBD00E450CA /* RAppBitesCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				6466CD6829B2CFD800E450CA /* Events */,
+				6466CD6929B2D00300E450CA /* RAppBitesCoordinator.swift */,
+			);
+			path = RAppBitesCoordinator;
+			sourceTree = "<group>";
+		};
+		6466CD6829B2CFD800E450CA /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				6466CD6B29B2D08100E450CA /* RAppBitesEvents.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6463BFF729A53F73004E959F /* RAppBites */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6463C02429A53F78004E959F /* Build configuration list for PBXNativeTarget "RAppBites" */;
+			buildPhases = (
+				6463BFF429A53F73004E959F /* Sources */,
+				6463BFF529A53F73004E959F /* Frameworks */,
+				6463BFF629A53F73004E959F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAppBites;
+			packageProductDependencies = (
+				6466CD6029B2CBC600E450CA /* RCoordinator */,
+			);
+			productName = RAppBites;
+			productReference = 6463BFF829A53F73004E959F /* RAppBites.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6463C00F29A53F78004E959F /* RAppBitesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6463C02729A53F78004E959F /* Build configuration list for PBXNativeTarget "RAppBitesTests" */;
+			buildPhases = (
+				6463C00C29A53F78004E959F /* Sources */,
+				6463C00D29A53F78004E959F /* Frameworks */,
+				6463C00E29A53F78004E959F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6463C01229A53F78004E959F /* PBXTargetDependency */,
+			);
+			name = RAppBitesTests;
+			productName = RAppBitesTests;
+			productReference = 6463C01029A53F78004E959F /* RAppBitesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6463C01929A53F78004E959F /* RAppBitesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6463C02A29A53F78004E959F /* Build configuration list for PBXNativeTarget "RAppBitesUITests" */;
+			buildPhases = (
+				6463C01629A53F78004E959F /* Sources */,
+				6463C01729A53F78004E959F /* Frameworks */,
+				6463C01829A53F78004E959F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6463C01C29A53F78004E959F /* PBXTargetDependency */,
+			);
+			name = RAppBitesUITests;
+			productName = RAppBitesUITests;
+			productReference = 6463C01A29A53F78004E959F /* RAppBitesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6463BFF029A53F73004E959F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6463BFF729A53F73004E959F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6463C00F29A53F78004E959F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6463BFF729A53F73004E959F;
+					};
+					6463C01929A53F78004E959F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6463BFF729A53F73004E959F;
+					};
+				};
+			};
+			buildConfigurationList = 6463BFF329A53F73004E959F /* Build configuration list for PBXProject "RAppBites" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6463BFEF29A53F73004E959F;
+			packageReferences = (
+				6466CD5F29B2CBC600E450CA /* XCRemoteSwiftPackageReference "coordinator" */,
+			);
+			productRefGroup = 6463BFF929A53F73004E959F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6463BFF729A53F73004E959F /* RAppBites */,
+				6463C00F29A53F78004E959F /* RAppBitesTests */,
+				6463C01929A53F78004E959F /* RAppBitesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6463BFF629A53F73004E959F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6463C00729A53F77004E959F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6463C00E29A53F78004E959F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6463C01829A53F78004E959F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6463BFF429A53F73004E959F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6463BFFC29A53F73004E959F /* AppDelegate.swift in Sources */,
+				6466CD6A29B2D00300E450CA /* RAppBitesCoordinator.swift in Sources */,
+				6466CD6C29B2D08200E450CA /* RAppBitesEvents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6463C00C29A53F78004E959F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6463C01529A53F78004E959F /* RAppBitesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6463C01629A53F78004E959F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6463C01F29A53F78004E959F /* RAppBitesUITests.swift in Sources */,
+				6463C02129A53F78004E959F /* RAppBitesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6463C01229A53F78004E959F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6463BFF729A53F73004E959F /* RAppBites */;
+			targetProxy = 6463C01129A53F78004E959F /* PBXContainerItemProxy */;
+		};
+		6463C01C29A53F78004E959F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6463BFF729A53F73004E959F /* RAppBites */;
+			targetProxy = 6463C01B29A53F78004E959F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6463C02229A53F78004E959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6463C02329A53F78004E959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6463C02529A53F78004E959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z67258WU3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAppBites/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ra Bites";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.rofhel.RAppBites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6463C02629A53F78004E959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z67258WU3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RAppBites/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Ra Bites";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.rofhel.RAppBites;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6463C02829A53F78004E959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z67258WU3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.rofhel.RAppBitesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAppBites.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RAppBites";
+			};
+			name = Debug;
+		};
+		6463C02929A53F78004E959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z67258WU3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.rofhel.RAppBitesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAppBites.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RAppBites";
+			};
+			name = Release;
+		};
+		6463C02B29A53F78004E959F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z67258WU3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.rofhel.RAppBitesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAppBites;
+			};
+			name = Debug;
+		};
+		6463C02C29A53F78004E959F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5Z67258WU3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.br.rofhel.RAppBitesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAppBites;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6463BFF329A53F73004E959F /* Build configuration list for PBXProject "RAppBites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6463C02229A53F78004E959F /* Debug */,
+				6463C02329A53F78004E959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6463C02429A53F78004E959F /* Build configuration list for PBXNativeTarget "RAppBites" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6463C02529A53F78004E959F /* Debug */,
+				6463C02629A53F78004E959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6463C02729A53F78004E959F /* Build configuration list for PBXNativeTarget "RAppBitesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6463C02829A53F78004E959F /* Debug */,
+				6463C02929A53F78004E959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6463C02A29A53F78004E959F /* Build configuration list for PBXNativeTarget "RAppBitesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6463C02B29A53F78004E959F /* Debug */,
+				6463C02C29A53F78004E959F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6466CD5F29B2CBC600E450CA /* XCRemoteSwiftPackageReference "coordinator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raphahenrique/coordinator.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6466CD6029B2CBC600E450CA /* RCoordinator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6466CD5F29B2CBC600E450CA /* XCRemoteSwiftPackageReference "coordinator" */;
+			productName = RCoordinator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6463BFF029A53F73004E959F /* Project object */;
+}
