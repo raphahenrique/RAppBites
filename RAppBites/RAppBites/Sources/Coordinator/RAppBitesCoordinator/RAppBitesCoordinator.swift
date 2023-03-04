@@ -17,8 +17,8 @@ class RAppBitesCoordinator: Coordinator {
     }
     
     func start() {
-        let vc = UIViewController()
-        vc.view.backgroundColor = .red
+        let vc = HomeViewController()
+        // vc.view.backgroundColor = .red
         // vc.homeCoordinator = self
         push(viewController: vc, animated: false)
     }
