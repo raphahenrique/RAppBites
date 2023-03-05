@@ -66,7 +66,7 @@ extension HomeView: ViewCodable {
         
         NSLayoutConstraint.activate([
             avatarImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
-            avatarImageView.topAnchor.constraint(equalTo: topAnchor, constant: 20),
+            avatarImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20),
             avatarImageView.widthAnchor.constraint(equalToConstant: 50),
             avatarImageView.heightAnchor.constraint(equalToConstant: 50),
             

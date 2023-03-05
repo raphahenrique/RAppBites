@@ -12,6 +12,7 @@
 		6408AB1D29B2DCB1009FF947 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6408AB1C29B2DCB1009FF947 /* Models.swift */; };
 		6408AB1F29B2DDF0009FF947 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6408AB1E29B2DDF0009FF947 /* Service.swift */; };
 		6408AB2129B2DEA7009FF947 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6408AB2029B2DEA7009FF947 /* HomeView.swift */; };
+		6408AB2529B51EEB009FF947 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6408AB2429B51EEB009FF947 /* Launch Screen.storyboard */; };
 		6463BFFC29A53F73004E959F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463BFFB29A53F73004E959F /* AppDelegate.swift */; };
 		6463C00729A53F77004E959F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6463C00629A53F77004E959F /* Assets.xcassets */; };
 		6463C01529A53F78004E959F /* RAppBitesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463C01429A53F78004E959F /* RAppBitesTests.swift */; };
@@ -45,6 +46,7 @@
 		6408AB1C29B2DCB1009FF947 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		6408AB1E29B2DDF0009FF947 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		6408AB2029B2DEA7009FF947 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6408AB2429B51EEB009FF947 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		6463BFF829A53F73004E959F /* RAppBites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAppBites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6463BFFB29A53F73004E959F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6463C00629A53F77004E959F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				6466CD6229B2CD3400E450CA /* Sources */,
 				6463BFFB29A53F73004E959F /* AppDelegate.swift */,
+				6408AB2429B51EEB009FF947 /* Launch Screen.storyboard */,
 				6463C00629A53F77004E959F /* Assets.xcassets */,
 			);
 			path = RAppBites;
@@ -318,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6408AB2529B51EEB009FF947 /* Launch Screen.storyboard in Resources */,
 				6463C00729A53F77004E959F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -491,6 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -513,6 +519,9 @@
 				INFOPLIST_FILE = RAppBites/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ra Bites";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
@@ -545,6 +554,9 @@
 				INFOPLIST_FILE = RAppBites/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ra Bites";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;

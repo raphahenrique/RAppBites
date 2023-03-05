@@ -18,8 +18,8 @@ class RAppBitesCoordinator: Coordinator {
     
     func start() {
         let vc = HomeViewController()
-        // vc.view.backgroundColor = .red
-        // vc.homeCoordinator = self
+        vc.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
+        vc.router = self
         push(viewController: vc, animated: false)
     }
     
@@ -43,4 +43,19 @@ extension RAppBitesCoordinator: RAppBitesEventsProtocol {
 
     }
     
+}
+
+private var routerKey: UInt8 = 0
+
+extension UIViewController {
+
+    var router: RAppBitesEventsProtocol? {
+        get {
+            return objc_getAssociatedObject(self, &routerKey) as? RAppBitesEventsProtocol
+        }
+        set {
+            objc_setAssociatedObject(self, &routerKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+
 }

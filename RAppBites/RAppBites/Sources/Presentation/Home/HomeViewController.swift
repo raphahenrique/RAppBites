@@ -15,6 +15,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
 
         print("done for the night")
+//        router?.handle(event: RAppBitesEvents.listOfFeatures)
     }
 
     override func loadView() {

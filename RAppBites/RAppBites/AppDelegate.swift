@@ -12,17 +12,39 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var coordinator: RAppBitesCoordinator?
+    var tabBarController: UITabBarController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let navController = UINavigationController()
-        coordinator = RAppBitesCoordinator(navigationController: navController)
+        let homeNavController = UINavigationController()
+
+        coordinator = RAppBitesCoordinator(navigationController: homeNavController)
         coordinator?.start()
+
+        // Create the three view controllers
+        let listViewController = UIViewController()
+        let userViewController = UIViewController()
+        
+        // Set the title and tab bar item for each view controller
+        listViewController.title = "List"
+        listViewController.view.backgroundColor = .blue
+        listViewController.tabBarItem = UITabBarItem(title: "List", image: UIImage(systemName: "list.bullet"), tag: 1)
+        userViewController.title = "User"
+        userViewController.view.backgroundColor = .red
+        userViewController.tabBarItem = UITabBarItem(title: "User", image: UIImage(systemName: "person"), tag: 2)
+        
+        // Create the tab bar controller and set its view controllers
+        tabBarController = UITabBarController()
+        tabBarController?.viewControllers = [
+            homeNavController,
+            listViewController,
+            userViewController
+        ]
         
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = navController
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
-        
+
         return true
     }
 
